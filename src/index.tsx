@@ -36,6 +36,6 @@ export const CopyToClipboard: Component<CopyToClipboardProps> = (props) => {
 
   // Return:
   return (
-    <div { ...eventTrigger } >{ c() }</div>
+    <span { ...eventTrigger } >{ c() }</span>
   )
 }
